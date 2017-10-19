@@ -51,7 +51,7 @@
   #5.属性
   ```
   |属性|解释|
- 
+  |:---:|:---:|
   |addtextcolor | 加号文字颜色|
   |addtextbg | 加号背景|
   |minustextcolor|减号文字颜色|
