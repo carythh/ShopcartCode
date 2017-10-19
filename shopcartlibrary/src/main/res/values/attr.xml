@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="shopbutton">
+        <attr name="addtextcolor" format="color" />
+        <attr name="addtextbg" format="reference" />
+        <attr name="minustextcolor" format="color" />
+        <attr name="minustextbg" format="reference" />
+        <attr name="buttonwidth" format="dimension" />
+        <attr name="buttonheight" format="dimension" />
+        <attr name="textwidth" format="dimension" />
+        <attr name="textcolor" format="color" />
+        <attr name="textbg" format="reference" />
+        <attr name="alltextsize" format="dimension" />
+
+    </declare-styleable>
+
+
+</resources>
