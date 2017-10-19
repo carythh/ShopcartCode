@@ -21,26 +21,26 @@
 
   #3. xml引用
   ```
-     <com.duanc.app.shopcart.AddMinusView <br>
-        android:id="@+id/add" <br>
-        android:layout_width="wrap_content" <br>
-        android:layout_height="wrap_content" <br>
-        app:addtextbg="@drawable/box_val" <br>
-        app:alltextsize="5sp" <br>
-        app:buttonheight="30dp" <br>
-        app:buttonwidth="30dp" <br>
-        app:minustextbg="@drawable/box_val" <br>
-        app:textbg="@color/white" <br>
-        app:textcolor="@color/colorPrimary" <br>
-        app:textwidth="60dp" <br>
-        /> <br>  
+     <com.duanc.app.shopcart.AddMinusView 
+        android:id="@+id/add" 
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        app:addtextbg="@drawable/box_val"  
+        app:alltextsize="5sp"  
+        app:buttonheight="30dp" 
+        app:buttonwidth="30dp" 
+        app:minustextbg="@drawable/box_val" 
+        app:textbg="@color/white"  
+        app:textcolor="@color/colorPrimary"  
+        app:textwidth="60dp" 
+        />  
   ```
   #4.activity 使用
   ```
     @BindView(R.id.add)
     AddMinusView add;
-   add
-   .setInventory(20)   //库存大小
+    
+   add.setInventory(20)   //库存大小
                   .setOnNowNumListener(new AddMinusView.onNumListener() {
                       @Override
                       public void onNowNum(int i) {
