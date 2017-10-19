@@ -11,13 +11,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        app:addtextbg="@drawable/box_val"
-        app:alltextsize="5sp"
-        app:buttonheight="30dp"
-        app:buttonwidth="30dp"
-        app:minustextbg="@drawable/box_val"
-        app:textbg="@color/colorg"
-        app:textcolor="@color/colorPrimary"
-        app:textwidth="60dp" />
+         />
 
 </RelativeLayout>

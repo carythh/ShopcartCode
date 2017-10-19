@@ -82,7 +82,7 @@ public class AddMinusView extends LinearLayout implements View.OnClickListener {
                 tv_num.setText(buynum + "");
                 onNumListener.onNowNum(buynum);
             } else {
-                Toast.makeText(mContext, "已达到可购买上限", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(mContext, "已达到可购买上限", Toast.LENGTH_SHORT).show();
             }
 
 
