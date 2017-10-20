@@ -1,8 +1,8 @@
 ## ShopcartCode
-#购物车数量加减
+# 购物车数量加减
 
-#使用方法：
-#1.在项目根目录添加 <br>  
+# 使用方法：
+# 1.在项目根目录添加 <br>  
  ```
 		allprojects {
     		repositories {
@@ -19,7 +19,7 @@
 
    ```
 
-  #3. xml引用
+  # 3. xml引用
   ```
      <com.duanc.app.shopcart.AddMinusView 
         android:id="@+id/add" 
@@ -35,7 +35,7 @@
         app:textwidth="60dp" 
         />  
   ```
-  #4.activity 使用
+  # 4.activity 使用
   ```
     @BindView(R.id.add)
     AddMinusView add;
@@ -48,7 +48,7 @@
                       }
                   });
   ```
-  #5.属性
+  # 5.属性
   ```
   | 属性 | 解释 |
  
