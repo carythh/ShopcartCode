@@ -14,7 +14,10 @@
  # 2.在项目目录build.gradle添加  <br>  
    ```
 		dependencies {
-    	        compile 'com.github.d746997:ShopcartCode:1.1'
+    	        	dependencies {
+	        compile 'com.github.duanzc:ShopcartCode:1.1'
+	}
+
     	}
 
    ```
